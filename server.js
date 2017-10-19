@@ -9,7 +9,9 @@ app.use(logger);
 app.use('/admin',restrict);
 app.use('/admin',admin);
 // app.use(hello);
-app.listen(3002);
+app.listen(3002,function(){
+    console.log("Server listening on port 3002");
+});
 
 // logger中间件组件
 function logger(req,res,next){

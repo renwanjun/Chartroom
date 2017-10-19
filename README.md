@@ -8,3 +8,7 @@ cnpm install
 node server.js或者npm start
 
 注：暂不支持es6和less、sass该项目目前仅用于学习node.js技术和架构
+
+2017.10.19更新
+支持es6规范 配置文件见.babelrc
+添加express框架
