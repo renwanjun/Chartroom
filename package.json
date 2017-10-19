@@ -1,0 +1,19 @@
+{
+  "name": "chartrooms",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+      "socket.io":"~0.9.6",
+      "mime":"~1.2.7"
+  },
+  "devDependencies": {
+    "protractor": "~5.1.0",
+    "ts-node": "~2.0.0",
+    "tslint": "~4.5.0",
+    "typescript": "~2.2.0"
+  }
+}
